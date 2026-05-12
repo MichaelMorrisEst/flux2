@@ -3,7 +3,7 @@ name: e2e
 on:
   workflow_dispatch:
   push:
-    branches: [ 'main', 'release/**' ]
+    branches: [ 'main', 'release/**', 'update' ]
   pull_request:
     branches: [ 'main', 'release/**' ]
     paths-ignore: [ 'docs/**', 'rfcs/**' ]
